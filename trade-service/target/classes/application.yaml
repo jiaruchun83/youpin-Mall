@@ -1,0 +1,11 @@
+server:
+  port: 8083
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp功能
+hm:
+  db:
+    database: trade-service
+  swager:
+    title: 商城交易接口文档
+    ds: 商城交易接口文档

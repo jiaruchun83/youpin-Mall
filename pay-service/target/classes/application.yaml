@@ -1,0 +1,11 @@
+server:
+  port: 8085
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp功能
+hm:
+  db:
+    database: item-service
+  swager:
+    title: 商城支付接口文档
+    ds: 商城支付接口文档

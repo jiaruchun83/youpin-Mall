@@ -1,0 +1,48 @@
+server:
+  port: 8080
+spring:
+  main:
+    web-application-type: reactive
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: item_route
+          uri: lb://item-service
+          predicates:
+            - Path=/items/**,/search/**
+        - id: cart_route
+          uri: lb://cart-service
+          predicates:
+            - Path=/carts/**
+        - id: user_route
+          uri: lb://user-service
+          predicates:
+            - Path=/users/**,/addresses/**
+        - id: trade_route
+          uri: lb://trade-service
+          predicates:
+            - Path=/orders/**
+        - id: pay_route
+          uri: lb://pay-service
+          predicates:
+            - Path=/pay-orders/**
+hm:
+  db:
+    database: hmall
+  swager:
+    title: 商城接口文档
+    ds: 商城接口文档
+auth:
+  excludePaths:
+    - /search
+    - /users/login
+    - /hi
+    - /carts
+jwt:
+  map-key-name: userId
+  token-name: authorization
+  secret-key: shijiezhmedahaishiyujianni
+  token-ttl: 172800

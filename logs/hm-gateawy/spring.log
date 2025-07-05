@@ -1,0 +1,678 @@
+14:13:34:743  INFO 26304 --- [main] c.jiaruchun.gateawy.GateawyApplication   : The following 1 profile is active: "local"
+14:13:35:498  INFO 26304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:13:35:502  INFO 26304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:13:35:532  INFO 26304 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+14:13:35:756  INFO 26304 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4bf8d823-e9b5-304b-8cb8-ec90db0f83f7
+14:13:35:827  INFO 26304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:13:35:829  INFO 26304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:13:35:829  INFO 26304 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:13:36:073  INFO 26304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+14:13:36:086  INFO 26304 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:13:36:087  INFO 26304 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+14:13:37:650  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+14:13:37:651  INFO 26304 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+14:13:38:066  INFO 26304 --- [main] ctiveUserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f6bc1e28-3afc-4cd4-aa7b-2616165d2c26
+
+14:13:38:575  INFO 26304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+14:13:38:732  INFO 26304 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from ans.namespace attribute : null
+14:13:38:732  INFO 26304 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+14:13:38:732  INFO 26304 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from namespace attribute :null
+14:13:38:743  INFO 26304 --- [main] com.alibaba.nacos.client.naming          : FailoverDataSource type is class com.alibaba.nacos.client.naming.backups.datasource.DiskFailoverDataSource
+14:13:38:746  INFO 26304 --- [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+14:13:38:747  INFO 26304 --- [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+14:13:38:750  INFO 26304 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3
+14:13:38:751  INFO 26304 --- [main] com.alibaba.nacos.client.naming          : Create naming rpc client for uuid->68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3
+14:13:38:752  INFO 26304 --- [main] com.alibaba.nacos.common.remote.client   : [68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:13:38:752  INFO 26304 --- [main] com.alibaba.nacos.common.remote.client   : [68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:13:38:752  INFO 26304 --- [main] com.alibaba.nacos.common.remote.client   : [68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:13:38:752  INFO 26304 --- [main] com.alibaba.nacos.common.remote.client   : [68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+14:13:38:753  INFO 26304 --- [main] c.a.n.c.remote.client.grpc.GrpcClient    : grpc client connection server:192.168.100.128 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+14:13:38:864  INFO 26304 --- [main] com.alibaba.nacos.common.remote.client   : [68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1751696018791_192.168.100.1_61885
+14:13:38:864  INFO 26304 --- [com.alibaba.nacos.client.remote.worker.0] com.alibaba.nacos.common.remote.client   : [68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3] Notify connected event to listeners.
+14:13:38:864  INFO 26304 --- [main] com.alibaba.nacos.common.remote.client   : [68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:13:38:864  INFO 26304 --- [com.alibaba.nacos.client.remote.worker.0] com.alibaba.nacos.client.naming          : Grpc connection connect
+14:13:38:864  INFO 26304 --- [main] com.alibaba.nacos.common.remote.client   : [68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$531/0x00000174c44b53a0
+14:13:38:866  INFO 26304 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] public registering service hm-gateawy with instance Instance{instanceId='null', ip='192.168.100.1', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+14:13:38:881  INFO 26304 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateawy 192.168.100.1:8080 register finished
+14:13:38:926  INFO 26304 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:hm-gateawy, group:DEFAULT_GROUP, clusters: 
+14:13:38:926  INFO 26304 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:hm-gateawy, group:DEFAULT_GROUP, clusters: 
+14:13:38:926  INFO 26304 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:hm-gateawy, group:DEFAULT_GROUP, cluster: 
+14:13:38:926  INFO 26304 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:hm-gateawy, group:DEFAULT_GROUP, cluster: 
+14:13:38:939  INFO 26304 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : init new ips(1) service: DEFAULT_GROUP@@hm-gateawy -> [{"ip":"192.168.100.1","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@hm-gateawy","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+14:13:38:945  INFO 26304 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@hm-gateawy -> [{"ip":"192.168.100.1","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@hm-gateawy","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+14:13:38:972  INFO 26304 --- [main] a.c.n.d.NacosDiscoveryHeartBeatPublisher : Start nacos heartBeat task scheduler.
+14:13:38:984  INFO 26304 --- [main] c.jiaruchun.gateawy.GateawyApplication   : Started GateawyApplication in 6.764 seconds (process running for 7.839)
+14:13:38:987  INFO 26304 --- [main] c.a.nacos.client.config.impl.CacheData   : config listener notify warn timeout millis use default 60000 millis 
+14:13:38:987  INFO 26304 --- [main] c.a.nacos.client.config.impl.CacheData   : nacos.cache.data.init.snapshot = true 
+14:13:38:988  INFO 26304 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy+DEFAULT_GROUP
+14:13:38:988  INFO 26304 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy, group=DEFAULT_GROUP, cnt=1
+14:13:38:988  INFO 26304 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy, group=DEFAULT_GROUP
+14:13:38:989  INFO 26304 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy.yaml+DEFAULT_GROUP
+14:13:38:989  INFO 26304 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy.yaml, group=DEFAULT_GROUP, cnt=1
+14:13:38:989  INFO 26304 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy.yaml, group=DEFAULT_GROUP
+14:13:38:989  INFO 26304 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy-local.yaml+DEFAULT_GROUP
+14:13:38:989  INFO 26304 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy-local.yaml, group=DEFAULT_GROUP, cnt=1
+14:13:38:989  INFO 26304 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy-local.yaml, group=DEFAULT_GROUP
+14:13:39:493  INFO 26304 --- [nacos-grpc-client-executor-192.168.100.128-18] com.alibaba.nacos.common.remote.client   : [68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3] Receive server push request, request = NotifySubscriberRequest, requestId = 66
+14:13:39:493  INFO 26304 --- [nacos-grpc-client-executor-192.168.100.128-18] com.alibaba.nacos.common.remote.client   : [68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3] Ack server push request, request = NotifySubscriberRequest, requestId = 66
+14:14:38:983  INFO 26304 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:cart-service, group:DEFAULT_GROUP, clusters: 
+14:14:38:983  INFO 26304 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:cart-service, group:DEFAULT_GROUP, cluster: 
+14:14:38:986  INFO 26304 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : init new ips(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+14:14:38:986  INFO 26304 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+14:14:39:550  INFO 26304 --- [nacos-grpc-client-executor-192.168.100.128-35] com.alibaba.nacos.common.remote.client   : [68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3] Receive server push request, request = NotifySubscriberRequest, requestId = 67
+14:14:39:551  INFO 26304 --- [nacos-grpc-client-executor-192.168.100.128-35] com.alibaba.nacos.common.remote.client   : [68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3] Ack server push request, request = NotifySubscriberRequest, requestId = 67
+14:22:22:721  WARN 26304 --- [Thread-2] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:22:22:721  WARN 26304 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:22:22:722  WARN 26304 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:22:22:722  WARN 26304 --- [Thread-2] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:22:22:748  INFO 26304 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+14:22:22:748  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] public deregistering service hm-gateawy with instance: Instance{instanceId='null', ip='192.168.100.1', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+14:22:22:751  INFO 26304 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+14:22:22:751  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+14:22:22:753  WARN 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+14:22:22:753  WARN 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+14:22:22:753  WARN 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+14:22:22:753  WARN 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : Shutdown naming grpc client proxy for  uuid->68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@273d5279[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 174]
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@39d522bd[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+14:22:22:753  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1751696018791_192.168.100.1_61885
+14:22:22:754  INFO 26304 --- [nacos-grpc-client-executor-192.168.100.128-131] c.a.n.c.remote.client.grpc.GrpcClient    : [1751696018791_192.168.100.1_61885]Ignore complete event,isRunning:false,isAbandon=false
+14:22:22:756  INFO 26304 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@4685b16d[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 132]
+14:22:22:756  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : shutdown and remove naming rpc client  for uuid ->68f9a1dc-bd51-4f74-b2ba-4b5e1a0ee5e3
+14:22:22:756  INFO 26304 --- [SpringApplicationShutdownHook] c.a.n.c.a.r.identify.CredentialWatcher   : [null] CredentialWatcher is stopped
+14:22:22:757  INFO 26304 --- [SpringApplicationShutdownHook] c.a.n.c.a.r.identify.CredentialService   : [null] CredentialService is freed
+14:22:22:757  INFO 26304 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+14:22:28:297  INFO 32120 --- [main] c.jiaruchun.gateawy.GateawyApplication   : The following 1 profile is active: "local"
+14:22:29:041  INFO 32120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:22:29:046  INFO 32120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:22:29:069  INFO 32120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+14:22:29:287  INFO 32120 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4bf8d823-e9b5-304b-8cb8-ec90db0f83f7
+14:22:29:375  INFO 32120 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:22:29:377  INFO 32120 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:22:29:378  INFO 32120 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:22:29:598  INFO 32120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+14:22:29:634  INFO 32120 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:22:29:634  INFO 32120 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+14:22:31:130  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+14:22:31:130  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+14:22:31:130  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+14:22:31:130  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+14:22:31:130  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+14:22:31:130  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+14:22:31:130  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+14:22:31:130  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+14:22:31:130  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+14:22:31:130  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+14:22:31:130  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+14:22:31:131  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+14:22:31:131  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+14:22:31:131  INFO 32120 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+14:22:31:575  INFO 32120 --- [main] ctiveUserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 49630fa5-e1bc-4bf5-9fd4-1bd5652ec2d3
+
+14:22:32:064  INFO 32120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+14:22:32:214  INFO 32120 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from ans.namespace attribute : null
+14:22:32:214  INFO 32120 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+14:22:32:214  INFO 32120 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from namespace attribute :null
+14:22:32:221  INFO 32120 --- [main] com.alibaba.nacos.client.naming          : FailoverDataSource type is class com.alibaba.nacos.client.naming.backups.datasource.DiskFailoverDataSource
+14:22:32:225  INFO 32120 --- [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+14:22:32:225  INFO 32120 --- [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+14:22:32:228  INFO 32120 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 8e8a36b2-cbef-4849-be8b-74a160597e11
+14:22:32:230  INFO 32120 --- [main] com.alibaba.nacos.client.naming          : Create naming rpc client for uuid->8e8a36b2-cbef-4849-be8b-74a160597e11
+14:22:32:230  INFO 32120 --- [main] com.alibaba.nacos.common.remote.client   : [8e8a36b2-cbef-4849-be8b-74a160597e11] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:22:32:230  INFO 32120 --- [main] com.alibaba.nacos.common.remote.client   : [8e8a36b2-cbef-4849-be8b-74a160597e11] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:22:32:230  INFO 32120 --- [main] com.alibaba.nacos.common.remote.client   : [8e8a36b2-cbef-4849-be8b-74a160597e11] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:22:32:231  INFO 32120 --- [main] com.alibaba.nacos.common.remote.client   : [8e8a36b2-cbef-4849-be8b-74a160597e11] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+14:22:32:231  INFO 32120 --- [main] c.a.n.c.remote.client.grpc.GrpcClient    : grpc client connection server:192.168.100.128 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+14:22:32:342  INFO 32120 --- [main] com.alibaba.nacos.common.remote.client   : [8e8a36b2-cbef-4849-be8b-74a160597e11] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1751696552269_192.168.100.1_62761
+14:22:32:342  INFO 32120 --- [com.alibaba.nacos.client.remote.worker.0] com.alibaba.nacos.common.remote.client   : [8e8a36b2-cbef-4849-be8b-74a160597e11] Notify connected event to listeners.
+14:22:32:342  INFO 32120 --- [com.alibaba.nacos.client.remote.worker.0] com.alibaba.nacos.client.naming          : Grpc connection connect
+14:22:32:342  INFO 32120 --- [main] com.alibaba.nacos.common.remote.client   : [8e8a36b2-cbef-4849-be8b-74a160597e11] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:22:32:342  INFO 32120 --- [main] com.alibaba.nacos.common.remote.client   : [8e8a36b2-cbef-4849-be8b-74a160597e11] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$531/0x00000141104c2588
+14:22:32:344  INFO 32120 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] public registering service hm-gateawy with instance Instance{instanceId='null', ip='192.168.100.1', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+14:22:32:360  INFO 32120 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateawy 192.168.100.1:8080 register finished
+14:22:32:407  INFO 32120 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:cart-service, group:DEFAULT_GROUP, clusters: 
+14:22:32:407  INFO 32120 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:hm-gateawy, group:DEFAULT_GROUP, clusters: 
+14:22:32:407  INFO 32120 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:cart-service, group:DEFAULT_GROUP, clusters: 
+14:22:32:407  INFO 32120 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:cart-service, group:DEFAULT_GROUP, cluster: 
+14:22:32:407  INFO 32120 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:hm-gateawy, group:DEFAULT_GROUP, clusters: 
+14:22:32:407  INFO 32120 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:cart-service, group:DEFAULT_GROUP, cluster: 
+14:22:32:407  INFO 32120 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:hm-gateawy, group:DEFAULT_GROUP, cluster: 
+14:22:32:408  INFO 32120 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:hm-gateawy, group:DEFAULT_GROUP, cluster: 
+14:22:32:426  INFO 32120 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : init new ips(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+14:22:32:426  INFO 32120 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : init new ips(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+14:22:32:427  INFO 32120 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : init new ips(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+14:22:32:436  INFO 32120 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+14:22:32:436  INFO 32120 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+14:22:32:436  INFO 32120 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+14:22:32:452  WARN 32120 --- [boundedElastic-6] c.a.n.client.utils.ConcurrentDiskUtil    : lock DEFAULT_GROUP%40%40hm-gateawy conflict;retry time: 1
+14:22:32:469  INFO 32120 --- [main] a.c.n.d.NacosDiscoveryHeartBeatPublisher : Start nacos heartBeat task scheduler.
+14:22:32:484  INFO 32120 --- [main] c.jiaruchun.gateawy.GateawyApplication   : Started GateawyApplication in 6.35 seconds (process running for 7.989)
+14:22:32:488  INFO 32120 --- [main] c.a.nacos.client.config.impl.CacheData   : config listener notify warn timeout millis use default 60000 millis 
+14:22:32:488  INFO 32120 --- [main] c.a.nacos.client.config.impl.CacheData   : nacos.cache.data.init.snapshot = true 
+14:22:32:488  INFO 32120 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy+DEFAULT_GROUP
+14:22:32:490  INFO 32120 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy, group=DEFAULT_GROUP, cnt=1
+14:22:32:490  INFO 32120 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy, group=DEFAULT_GROUP
+14:22:32:490  INFO 32120 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy.yaml+DEFAULT_GROUP
+14:22:32:490  INFO 32120 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy.yaml, group=DEFAULT_GROUP, cnt=1
+14:22:32:490  INFO 32120 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy.yaml, group=DEFAULT_GROUP
+14:22:32:490  INFO 32120 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy-local.yaml+DEFAULT_GROUP
+14:22:32:490  INFO 32120 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy-local.yaml, group=DEFAULT_GROUP, cnt=1
+14:22:32:490  INFO 32120 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy-local.yaml, group=DEFAULT_GROUP
+14:22:32:891  INFO 32120 --- [nacos-grpc-client-executor-192.168.100.128-22] com.alibaba.nacos.common.remote.client   : [8e8a36b2-cbef-4849-be8b-74a160597e11] Receive server push request, request = NotifySubscriberRequest, requestId = 68
+14:22:32:893  INFO 32120 --- [nacos-grpc-client-executor-192.168.100.128-22] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@hm-gateawy -> [{"ip":"192.168.100.1","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@hm-gateawy","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+14:22:32:893  INFO 32120 --- [nacos-grpc-client-executor-192.168.100.128-22] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@hm-gateawy -> [{"ip":"192.168.100.1","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@hm-gateawy","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+14:22:32:895  INFO 32120 --- [nacos-grpc-client-executor-192.168.100.128-22] com.alibaba.nacos.common.remote.client   : [8e8a36b2-cbef-4849-be8b-74a160597e11] Ack server push request, request = NotifySubscriberRequest, requestId = 68
+14:22:32:965  INFO 32120 --- [nacos-grpc-client-executor-192.168.100.128-23] com.alibaba.nacos.common.remote.client   : [8e8a36b2-cbef-4849-be8b-74a160597e11] Receive server push request, request = NotifySubscriberRequest, requestId = 69
+14:22:32:965  INFO 32120 --- [nacos-grpc-client-executor-192.168.100.128-23] com.alibaba.nacos.common.remote.client   : [8e8a36b2-cbef-4849-be8b-74a160597e11] Ack server push request, request = NotifySubscriberRequest, requestId = 69
+14:26:52:833  WARN 32120 --- [Thread-2] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:26:52:833  WARN 32120 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:26:52:833  WARN 32120 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:26:52:835  WARN 32120 --- [Thread-2] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:26:52:864  INFO 32120 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+14:26:52:864  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] public deregistering service hm-gateawy with instance: Instance{instanceId='null', ip='192.168.100.1', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+14:26:52:868  INFO 32120 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+14:26:52:869  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+14:26:52:869  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+14:26:52:870  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+14:26:52:870  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+14:26:52:870  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+14:26:52:870  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+14:26:52:870  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+14:26:52:870  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+14:26:52:870  WARN 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+14:26:52:870  WARN 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+14:26:52:870  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+14:26:52:870  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+14:26:52:870  WARN 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+14:26:52:871  WARN 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+14:26:52:871  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+14:26:52:871  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : Shutdown naming grpc client proxy for  uuid->8e8a36b2-cbef-4849-be8b-74a160597e11
+14:26:52:871  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@17980126[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 86]
+14:26:52:871  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+14:26:52:871  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@3125c56e[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+14:26:52:871  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1751696552269_192.168.100.1_62761
+14:26:52:873  INFO 32120 --- [nacos-grpc-client-executor-192.168.100.128-80] c.a.n.c.remote.client.grpc.GrpcClient    : [1751696552269_192.168.100.1_62761]Ignore complete event,isRunning:false,isAbandon=false
+14:26:52:876  INFO 32120 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@a024dd7[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 81]
+14:26:52:876  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : shutdown and remove naming rpc client  for uuid ->8e8a36b2-cbef-4849-be8b-74a160597e11
+14:26:52:876  INFO 32120 --- [SpringApplicationShutdownHook] c.a.n.c.a.r.identify.CredentialWatcher   : [null] CredentialWatcher is stopped
+14:26:52:877  INFO 32120 --- [SpringApplicationShutdownHook] c.a.n.c.a.r.identify.CredentialService   : [null] CredentialService is freed
+14:26:52:877  INFO 32120 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+14:26:57:230  INFO 31712 --- [main] c.jiaruchun.gateawy.GateawyApplication   : The following 1 profile is active: "local"
+14:26:57:783  INFO 31712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+14:26:57:786  INFO 31712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:26:57:808  INFO 31712 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+14:26:57:994  INFO 31712 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4bf8d823-e9b5-304b-8cb8-ec90db0f83f7
+14:26:58:047  INFO 31712 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:26:58:048  INFO 31712 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:26:58:049  INFO 31712 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:26:58:205  INFO 31712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+14:26:58:213  INFO 31712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+14:26:58:214  INFO 31712 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+14:26:59:390  INFO 31712 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+14:26:59:757  INFO 31712 --- [main] ctiveUserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0473ed32-95d9-45ab-8f36-46cd55ec36bd
+
+14:27:00:290  INFO 31712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+14:27:00:440  INFO 31712 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from ans.namespace attribute : null
+14:27:00:441  INFO 31712 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+14:27:00:441  INFO 31712 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from namespace attribute :null
+14:27:00:447  INFO 31712 --- [main] com.alibaba.nacos.client.naming          : FailoverDataSource type is class com.alibaba.nacos.client.naming.backups.datasource.DiskFailoverDataSource
+14:27:00:451  INFO 31712 --- [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+14:27:00:451  INFO 31712 --- [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+14:27:00:455  INFO 31712 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of e8f66a16-c7ea-4e9a-b4d4-a4681d09a542
+14:27:00:457  INFO 31712 --- [main] com.alibaba.nacos.client.naming          : Create naming rpc client for uuid->e8f66a16-c7ea-4e9a-b4d4-a4681d09a542
+14:27:00:457  INFO 31712 --- [main] com.alibaba.nacos.common.remote.client   : [e8f66a16-c7ea-4e9a-b4d4-a4681d09a542] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+14:27:00:457  INFO 31712 --- [main] com.alibaba.nacos.common.remote.client   : [e8f66a16-c7ea-4e9a-b4d4-a4681d09a542] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+14:27:00:457  INFO 31712 --- [main] com.alibaba.nacos.common.remote.client   : [e8f66a16-c7ea-4e9a-b4d4-a4681d09a542] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+14:27:00:458  INFO 31712 --- [main] com.alibaba.nacos.common.remote.client   : [e8f66a16-c7ea-4e9a-b4d4-a4681d09a542] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+14:27:00:458  INFO 31712 --- [main] c.a.n.c.remote.client.grpc.GrpcClient    : grpc client connection server:192.168.100.128 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+14:27:00:570  INFO 31712 --- [main] com.alibaba.nacos.common.remote.client   : [e8f66a16-c7ea-4e9a-b4d4-a4681d09a542] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1751696820496_192.168.100.1_63146
+14:27:00:570  INFO 31712 --- [main] com.alibaba.nacos.common.remote.client   : [e8f66a16-c7ea-4e9a-b4d4-a4681d09a542] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+14:27:00:570  INFO 31712 --- [com.alibaba.nacos.client.remote.worker.0] com.alibaba.nacos.common.remote.client   : [e8f66a16-c7ea-4e9a-b4d4-a4681d09a542] Notify connected event to listeners.
+14:27:00:570  INFO 31712 --- [main] com.alibaba.nacos.common.remote.client   : [e8f66a16-c7ea-4e9a-b4d4-a4681d09a542] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$531/0x000001dfc24b5af8
+14:27:00:570  INFO 31712 --- [com.alibaba.nacos.client.remote.worker.0] com.alibaba.nacos.client.naming          : Grpc connection connect
+14:27:00:572  INFO 31712 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] public registering service hm-gateawy with instance Instance{instanceId='null', ip='192.168.100.1', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+14:27:00:584  INFO 31712 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateawy 192.168.100.1:8080 register finished
+14:27:00:627  INFO 31712 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:hm-gateawy, group:DEFAULT_GROUP, clusters: 
+14:27:00:627  INFO 31712 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:hm-gateawy, group:DEFAULT_GROUP, clusters: 
+14:27:00:627  INFO 31712 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:cart-service, group:DEFAULT_GROUP, clusters: 
+14:27:00:627  INFO 31712 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:hm-gateawy, group:DEFAULT_GROUP, cluster: 
+14:27:00:627  INFO 31712 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:cart-service, group:DEFAULT_GROUP, cluster: 
+14:27:00:627  INFO 31712 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:hm-gateawy, group:DEFAULT_GROUP, cluster: 
+14:27:00:627  INFO 31712 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:cart-service, group:DEFAULT_GROUP, clusters: 
+14:27:00:628  INFO 31712 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:cart-service, group:DEFAULT_GROUP, cluster: 
+14:27:00:651  INFO 31712 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : init new ips(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+14:27:00:651  INFO 31712 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : init new ips(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+14:27:00:663  INFO 31712 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+14:27:00:663  INFO 31712 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+14:27:00:667  INFO 31712 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : init new ips(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+14:27:00:667  INFO 31712 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+14:27:00:679  WARN 31712 --- [boundedElastic-6] c.a.n.client.utils.ConcurrentDiskUtil    : lock DEFAULT_GROUP%40%40hm-gateawy conflict;retry time: 1
+14:27:00:703  INFO 31712 --- [main] a.c.n.d.NacosDiscoveryHeartBeatPublisher : Start nacos heartBeat task scheduler.
+14:27:00:720  INFO 31712 --- [main] c.jiaruchun.gateawy.GateawyApplication   : Started GateawyApplication in 5.591 seconds (process running for 6.39)
+14:27:00:724  INFO 31712 --- [main] c.a.nacos.client.config.impl.CacheData   : config listener notify warn timeout millis use default 60000 millis 
+14:27:00:724  INFO 31712 --- [main] c.a.nacos.client.config.impl.CacheData   : nacos.cache.data.init.snapshot = true 
+14:27:00:725  INFO 31712 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy+DEFAULT_GROUP
+14:27:00:725  INFO 31712 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy, group=DEFAULT_GROUP, cnt=1
+14:27:00:725  INFO 31712 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy, group=DEFAULT_GROUP
+14:27:00:726  INFO 31712 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy.yaml+DEFAULT_GROUP
+14:27:00:726  INFO 31712 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy.yaml, group=DEFAULT_GROUP, cnt=1
+14:27:00:726  INFO 31712 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy.yaml, group=DEFAULT_GROUP
+14:27:00:726  INFO 31712 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy-local.yaml+DEFAULT_GROUP
+14:27:00:726  INFO 31712 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy-local.yaml, group=DEFAULT_GROUP, cnt=1
+14:27:00:726  INFO 31712 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy-local.yaml, group=DEFAULT_GROUP
+14:27:01:107  INFO 31712 --- [nacos-grpc-client-executor-192.168.100.128-22] com.alibaba.nacos.common.remote.client   : [e8f66a16-c7ea-4e9a-b4d4-a4681d09a542] Receive server push request, request = NotifySubscriberRequest, requestId = 70
+14:27:01:108  INFO 31712 --- [nacos-grpc-client-executor-192.168.100.128-22] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@hm-gateawy -> [{"ip":"192.168.100.1","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@hm-gateawy","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+14:27:01:109  INFO 31712 --- [nacos-grpc-client-executor-192.168.100.128-22] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@hm-gateawy -> [{"ip":"192.168.100.1","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@hm-gateawy","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+14:27:01:110  INFO 31712 --- [nacos-grpc-client-executor-192.168.100.128-22] com.alibaba.nacos.common.remote.client   : [e8f66a16-c7ea-4e9a-b4d4-a4681d09a542] Ack server push request, request = NotifySubscriberRequest, requestId = 70
+14:27:01:197  INFO 31712 --- [nacos-grpc-client-executor-192.168.100.128-23] com.alibaba.nacos.common.remote.client   : [e8f66a16-c7ea-4e9a-b4d4-a4681d09a542] Receive server push request, request = NotifySubscriberRequest, requestId = 71
+14:27:01:198  INFO 31712 --- [nacos-grpc-client-executor-192.168.100.128-23] com.alibaba.nacos.common.remote.client   : [e8f66a16-c7ea-4e9a-b4d4-a4681d09a542] Ack server push request, request = NotifySubscriberRequest, requestId = 71
+14:48:51:288  WARN 31712 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+14:48:51:288  WARN 31712 --- [Thread-2] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+14:48:51:289  WARN 31712 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+14:48:51:289  WARN 31712 --- [Thread-2] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+14:48:51:336  INFO 31712 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+14:48:51:337  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] public deregistering service hm-gateawy with instance: Instance{instanceId='null', ip='192.168.100.1', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+14:48:51:341  INFO 31712 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+14:48:51:342  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+14:48:51:342  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+14:48:51:342  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+14:48:51:342  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+14:48:51:342  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+14:48:51:342  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+14:48:51:342  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+14:48:51:342  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+14:48:51:342  WARN 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+14:48:51:342  WARN 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+14:48:51:342  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+14:48:51:342  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+14:48:51:342  WARN 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+14:48:51:342  WARN 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+14:48:51:343  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+14:48:51:343  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : Shutdown naming grpc client proxy for  uuid->e8f66a16-c7ea-4e9a-b4d4-a4681d09a542
+14:48:51:343  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@47f6ffad[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 436]
+14:48:51:343  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+14:48:51:343  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@f135d50[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+14:48:51:343  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1751696820496_192.168.100.1_63146
+14:48:51:345  INFO 31712 --- [nacos-grpc-client-executor-192.168.100.128-286] c.a.n.c.remote.client.grpc.GrpcClient    : [1751696820496_192.168.100.1_63146]Ignore complete event,isRunning:false,isAbandon=false
+14:48:51:348  INFO 31712 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@2c97afd0[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 287]
+14:48:51:348  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : shutdown and remove naming rpc client  for uuid ->e8f66a16-c7ea-4e9a-b4d4-a4681d09a542
+14:48:51:348  INFO 31712 --- [SpringApplicationShutdownHook] c.a.n.c.a.r.identify.CredentialWatcher   : [null] CredentialWatcher is stopped
+14:48:51:348  INFO 31712 --- [SpringApplicationShutdownHook] c.a.n.c.a.r.identify.CredentialService   : [null] CredentialService is freed
+14:48:51:349  INFO 31712 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-07-05T14:48:59.497+08:00  INFO 29808 --- [main] c.jiaruchun.gateawy.GateawyApplication   : The following 1 profile is active: "local"
+2025-07-05T14:49:00.090+08:00  INFO 29808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-05T14:49:00.092+08:00  INFO 29808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-07-05T14:49:00.109+08:00  INFO 29808 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-07-05T14:49:00.288+08:00  INFO 29808 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4bf8d823-e9b5-304b-8cb8-ec90db0f83f7
+2025-07-05T14:49:00.358+08:00  INFO 29808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05T14:49:00.360+08:00  INFO 29808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05T14:49:00.361+08:00  INFO 29808 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05T14:49:00.527+08:00  INFO 29808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-07-05T14:49:00.536+08:00  INFO 29808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-05T14:49:00.536+08:00  INFO 29808 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-07-05T14:49:01.760+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-07-05T14:49:01.760+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-07-05T14:49:01.761+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-07-05T14:49:01.761+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-07-05T14:49:01.761+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-07-05T14:49:01.761+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-07-05T14:49:01.761+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-07-05T14:49:01.761+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-07-05T14:49:01.761+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-07-05T14:49:01.761+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-07-05T14:49:01.761+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-05T14:49:01.761+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-07-05T14:49:01.761+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-07-05T14:49:01.761+08:00  INFO 29808 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-05T14:49:02.124+08:00  INFO 29808 --- [main] ctiveUserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b0d892bd-0beb-4d4e-8872-eb749d8dd27b
+
+2025-07-05T14:49:02.509+08:00  INFO 29808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-07-05T14:49:02.651+08:00  INFO 29808 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from ans.namespace attribute : null
+2025-07-05T14:49:02.651+08:00  INFO 29808 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-07-05T14:49:02.651+08:00  INFO 29808 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from namespace attribute :null
+2025-07-05T14:49:02.655+08:00  INFO 29808 --- [main] com.alibaba.nacos.client.naming          : FailoverDataSource type is class com.alibaba.nacos.client.naming.backups.datasource.DiskFailoverDataSource
+2025-07-05T14:49:02.658+08:00  INFO 29808 --- [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-07-05T14:49:02.658+08:00  INFO 29808 --- [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-07-05T14:49:02.661+08:00  INFO 29808 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of c106dcc7-a646-4174-bd0b-83af045ca37c
+2025-07-05T14:49:02.663+08:00  INFO 29808 --- [main] com.alibaba.nacos.client.naming          : Create naming rpc client for uuid->c106dcc7-a646-4174-bd0b-83af045ca37c
+2025-07-05T14:49:02.663+08:00  INFO 29808 --- [main] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-07-05T14:49:02.663+08:00  INFO 29808 --- [main] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-07-05T14:49:02.663+08:00  INFO 29808 --- [main] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-07-05T14:49:02.664+08:00  INFO 29808 --- [main] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+2025-07-05T14:49:02.664+08:00  INFO 29808 --- [main] c.a.n.c.remote.client.grpc.GrpcClient    : grpc client connection server:192.168.100.128 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-07-05T14:49:02.777+08:00  INFO 29808 --- [main] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1751698142700_192.168.100.1_65485
+2025-07-05T14:49:02.777+08:00  INFO 29808 --- [main] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-07-05T14:49:02.777+08:00  INFO 29808 --- [com.alibaba.nacos.client.remote.worker.0] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Notify connected event to listeners.
+2025-07-05T14:49:02.777+08:00  INFO 29808 --- [main] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$531/0x000001ffc64b4638
+2025-07-05T14:49:02.777+08:00  INFO 29808 --- [com.alibaba.nacos.client.remote.worker.0] com.alibaba.nacos.client.naming          : Grpc connection connect
+2025-07-05T14:49:02.778+08:00  INFO 29808 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] public registering service hm-gateawy with instance Instance{instanceId='null', ip='192.168.100.1', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-07-05T14:49:02.789+08:00  INFO 29808 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateawy 192.168.100.1:8080 register finished
+2025-07-05T14:49:02.829+08:00  INFO 29808 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:cart-service, group:DEFAULT_GROUP, clusters: 
+2025-07-05T14:49:02.829+08:00  INFO 29808 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:hm-gateawy, group:DEFAULT_GROUP, clusters: 
+2025-07-05T14:49:02.829+08:00  INFO 29808 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:hm-gateawy, group:DEFAULT_GROUP, clusters: 
+2025-07-05T14:49:02.829+08:00  INFO 29808 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:cart-service, group:DEFAULT_GROUP, clusters: 
+2025-07-05T14:49:02.829+08:00  INFO 29808 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:cart-service, group:DEFAULT_GROUP, cluster: 
+2025-07-05T14:49:02.829+08:00  INFO 29808 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:hm-gateawy, group:DEFAULT_GROUP, cluster: 
+2025-07-05T14:49:02.829+08:00  INFO 29808 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:cart-service, group:DEFAULT_GROUP, cluster: 
+2025-07-05T14:49:02.829+08:00  INFO 29808 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:hm-gateawy, group:DEFAULT_GROUP, cluster: 
+2025-07-05T14:49:02.841+08:00  INFO 29808 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : init new ips(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+2025-07-05T14:49:02.842+08:00  INFO 29808 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : init new ips(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2025-07-05T14:49:02.847+08:00  INFO 29808 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+2025-07-05T14:49:02.847+08:00  INFO 29808 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2025-07-05T14:49:02.875+08:00  INFO 29808 --- [main] a.c.n.d.NacosDiscoveryHeartBeatPublisher : Start nacos heartBeat task scheduler.
+2025-07-05T14:49:02.887+08:00  INFO 29808 --- [main] c.jiaruchun.gateawy.GateawyApplication   : Started GateawyApplication in 5.392 seconds (process running for 5.969)
+2025-07-05T14:49:02.890+08:00  INFO 29808 --- [main] c.a.nacos.client.config.impl.CacheData   : config listener notify warn timeout millis use default 60000 millis 
+2025-07-05T14:49:02.891+08:00  INFO 29808 --- [main] c.a.nacos.client.config.impl.CacheData   : nacos.cache.data.init.snapshot = true 
+2025-07-05T14:49:02.891+08:00  INFO 29808 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy+DEFAULT_GROUP
+2025-07-05T14:49:02.891+08:00  INFO 29808 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy, group=DEFAULT_GROUP, cnt=1
+2025-07-05T14:49:02.891+08:00  INFO 29808 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy, group=DEFAULT_GROUP
+2025-07-05T14:49:02.892+08:00  INFO 29808 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy.yaml+DEFAULT_GROUP
+2025-07-05T14:49:02.892+08:00  INFO 29808 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy.yaml, group=DEFAULT_GROUP, cnt=1
+2025-07-05T14:49:02.892+08:00  INFO 29808 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy.yaml, group=DEFAULT_GROUP
+2025-07-05T14:49:02.892+08:00  INFO 29808 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy-local.yaml+DEFAULT_GROUP
+2025-07-05T14:49:02.892+08:00  INFO 29808 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy-local.yaml, group=DEFAULT_GROUP, cnt=1
+2025-07-05T14:49:02.892+08:00  INFO 29808 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy-local.yaml, group=DEFAULT_GROUP
+2025-07-05T14:49:03.310+08:00  INFO 29808 --- [nacos-grpc-client-executor-192.168.100.128-18] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Receive server push request, request = NotifySubscriberRequest, requestId = 72
+2025-07-05T14:49:03.310+08:00  INFO 29808 --- [nacos-grpc-client-executor-192.168.100.128-18] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@hm-gateawy -> [{"ip":"192.168.100.1","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@hm-gateawy","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2025-07-05T14:49:03.310+08:00  INFO 29808 --- [nacos-grpc-client-executor-192.168.100.128-18] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@hm-gateawy -> [{"ip":"192.168.100.1","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@hm-gateawy","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2025-07-05T14:49:03.312+08:00  INFO 29808 --- [nacos-grpc-client-executor-192.168.100.128-18] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Ack server push request, request = NotifySubscriberRequest, requestId = 72
+2025-07-05T14:49:03.401+08:00  INFO 29808 --- [nacos-grpc-client-executor-192.168.100.128-19] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Receive server push request, request = NotifySubscriberRequest, requestId = 73
+2025-07-05T14:49:03.402+08:00  INFO 29808 --- [nacos-grpc-client-executor-192.168.100.128-19] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Ack server push request, request = NotifySubscriberRequest, requestId = 73
+2025-07-05T14:54:22.906+08:00  INFO 29808 --- [nacos-grpc-client-executor-192.168.100.128-85] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Receive server push request, request = NotifySubscriberRequest, requestId = 74
+2025-07-05T14:54:22.907+08:00  INFO 29808 --- [nacos-grpc-client-executor-192.168.100.128-85] com.alibaba.nacos.client.naming          : removed ips(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2025-07-05T14:54:22.907+08:00  INFO 29808 --- [nacos-grpc-client-executor-192.168.100.128-85] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@cart-service -> []
+2025-07-05T14:54:22.908+08:00  INFO 29808 --- [nacos-grpc-client-executor-192.168.100.128-85] com.alibaba.nacos.common.remote.client   : [c106dcc7-a646-4174-bd0b-83af045ca37c] Ack server push request, request = NotifySubscriberRequest, requestId = 74
+2025-07-05T14:54:34.154+08:00  WARN 29808 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-07-05T14:54:34.154+08:00  WARN 29808 --- [Thread-2] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-07-05T14:54:34.154+08:00  WARN 29808 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-07-05T14:54:34.155+08:00  WARN 29808 --- [Thread-2] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-07-05T14:54:34.184+08:00  INFO 29808 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2025-07-05T14:54:34.184+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] public deregistering service hm-gateawy with instance: Instance{instanceId='null', ip='192.168.100.1', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-07-05T14:54:34.187+08:00  INFO 29808 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2025-07-05T14:54:34.188+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-07-05T14:54:34.188+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-07-05T14:54:34.188+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-07-05T14:54:34.188+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-07-05T14:54:34.188+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-07-05T14:54:34.188+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-07-05T14:54:34.188+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-07-05T14:54:34.188+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-07-05T14:54:34.188+08:00  WARN 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-07-05T14:54:34.188+08:00  WARN 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+2025-07-05T14:54:34.188+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-07-05T14:54:34.188+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-07-05T14:54:34.188+08:00  WARN 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-07-05T14:54:34.188+08:00  WARN 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+2025-07-05T14:54:34.188+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-07-05T14:54:34.188+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : Shutdown naming grpc client proxy for  uuid->c106dcc7-a646-4174-bd0b-83af045ca37c
+2025-07-05T14:54:34.189+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@27c4d6ee[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 110]
+2025-07-05T14:54:34.189+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+2025-07-05T14:54:34.189+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@73bd75d[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-07-05T14:54:34.189+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1751698142700_192.168.100.1_65485
+2025-07-05T14:54:34.190+08:00  INFO 29808 --- [nacos-grpc-client-executor-192.168.100.128-89] c.a.n.c.remote.client.grpc.GrpcClient    : [1751698142700_192.168.100.1_65485]Ignore complete event,isRunning:false,isAbandon=false
+2025-07-05T14:54:34.192+08:00  INFO 29808 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@46917a2[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 90]
+2025-07-05T14:54:34.192+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : shutdown and remove naming rpc client  for uuid ->c106dcc7-a646-4174-bd0b-83af045ca37c
+2025-07-05T14:54:34.192+08:00  INFO 29808 --- [SpringApplicationShutdownHook] c.a.n.c.a.r.identify.CredentialWatcher   : [null] CredentialWatcher is stopped
+2025-07-05T14:54:34.192+08:00  INFO 29808 --- [SpringApplicationShutdownHook] c.a.n.c.a.r.identify.CredentialService   : [null] CredentialService is freed
+2025-07-05T14:54:34.193+08:00  INFO 29808 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-07-05T14:54:51.434+08:00  INFO 34692 --- [main] c.jiaruchun.gateawy.GateawyApplication   : The following 1 profile is active: "local"
+2025-07-05T14:54:52.142+08:00  INFO 34692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-05T14:54:52.145+08:00  INFO 34692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-07-05T14:54:52.163+08:00  INFO 34692 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-07-05T14:54:52.346+08:00  INFO 34692 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4bf8d823-e9b5-304b-8cb8-ec90db0f83f7
+2025-07-05T14:54:52.423+08:00  INFO 34692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05T14:54:52.425+08:00  INFO 34692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05T14:54:52.426+08:00  INFO 34692 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05T14:54:52.675+08:00  INFO 34692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-07-05T14:54:52.688+08:00  INFO 34692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-05T14:54:52.688+08:00  INFO 34692 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-07-05T14:54:54.313+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-07-05T14:54:54.313+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-07-05T14:54:54.313+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-07-05T14:54:54.314+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-07-05T14:54:54.314+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-07-05T14:54:54.314+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-07-05T14:54:54.314+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-07-05T14:54:54.314+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-07-05T14:54:54.314+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-07-05T14:54:54.314+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-07-05T14:54:54.314+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-05T14:54:54.314+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-07-05T14:54:54.314+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-07-05T14:54:54.314+08:00  INFO 34692 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-05T14:54:54.820+08:00  INFO 34692 --- [main] ctiveUserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 19a1ea36-4aa1-4e14-b79e-491dabe05aa9
+
+2025-07-05T14:54:55.315+08:00  INFO 34692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-07-05T14:54:55.460+08:00  INFO 34692 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from ans.namespace attribute : null
+2025-07-05T14:54:55.460+08:00  INFO 34692 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-07-05T14:54:55.461+08:00  INFO 34692 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from namespace attribute :null
+2025-07-05T14:54:55.465+08:00  INFO 34692 --- [main] com.alibaba.nacos.client.naming          : FailoverDataSource type is class com.alibaba.nacos.client.naming.backups.datasource.DiskFailoverDataSource
+2025-07-05T14:54:55.469+08:00  INFO 34692 --- [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-07-05T14:54:55.469+08:00  INFO 34692 --- [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-07-05T14:54:55.472+08:00  INFO 34692 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 4226363c-4d6f-444d-a275-3ca23ad5ff63
+2025-07-05T14:54:55.474+08:00  INFO 34692 --- [main] com.alibaba.nacos.client.naming          : Create naming rpc client for uuid->4226363c-4d6f-444d-a275-3ca23ad5ff63
+2025-07-05T14:54:55.475+08:00  INFO 34692 --- [main] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-07-05T14:54:55.475+08:00  INFO 34692 --- [main] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-07-05T14:54:55.475+08:00  INFO 34692 --- [main] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-07-05T14:54:55.476+08:00  INFO 34692 --- [main] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+2025-07-05T14:54:55.476+08:00  INFO 34692 --- [main] c.a.n.c.remote.client.grpc.GrpcClient    : grpc client connection server:192.168.100.128 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-07-05T14:54:55.615+08:00  INFO 34692 --- [main] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1751698495511_192.168.100.1_49905
+2025-07-05T14:54:55.615+08:00  INFO 34692 --- [main] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-07-05T14:54:55.615+08:00  INFO 34692 --- [com.alibaba.nacos.client.remote.worker.0] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Notify connected event to listeners.
+2025-07-05T14:54:55.615+08:00  INFO 34692 --- [main] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$531/0x0000026fd54c2fe8
+2025-07-05T14:54:55.615+08:00  INFO 34692 --- [com.alibaba.nacos.client.remote.worker.0] com.alibaba.nacos.client.naming          : Grpc connection connect
+2025-07-05T14:54:55.616+08:00  INFO 34692 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] public registering service hm-gateawy with instance Instance{instanceId='null', ip='192.168.100.1', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-07-05T14:54:55.627+08:00  INFO 34692 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateawy 192.168.100.1:8080 register finished
+2025-07-05T14:54:55.662+08:00  INFO 34692 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:cart-service, group:DEFAULT_GROUP, clusters: 
+2025-07-05T14:54:55.662+08:00  INFO 34692 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:hm-gateawy, group:DEFAULT_GROUP, clusters: 
+2025-07-05T14:54:55.662+08:00  INFO 34692 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:hm-gateawy, group:DEFAULT_GROUP, clusters: 
+2025-07-05T14:54:55.662+08:00  INFO 34692 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:cart-service, group:DEFAULT_GROUP, clusters: 
+2025-07-05T14:54:55.662+08:00  INFO 34692 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:cart-service, group:DEFAULT_GROUP, cluster: 
+2025-07-05T14:54:55.662+08:00  INFO 34692 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:hm-gateawy, group:DEFAULT_GROUP, cluster: 
+2025-07-05T14:54:55.662+08:00  INFO 34692 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:hm-gateawy, group:DEFAULT_GROUP, cluster: 
+2025-07-05T14:54:55.662+08:00  INFO 34692 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:cart-service, group:DEFAULT_GROUP, cluster: 
+2025-07-05T14:54:55.677+08:00  INFO 34692 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : init new ips(0) service: DEFAULT_GROUP@@cart-service -> []
+2025-07-05T14:54:55.677+08:00  INFO 34692 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : init new ips(0) service: DEFAULT_GROUP@@cart-service -> []
+2025-07-05T14:54:55.677+08:00  INFO 34692 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : init new ips(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+2025-07-05T14:54:55.685+08:00  INFO 34692 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+2025-07-05T14:54:55.685+08:00  INFO 34692 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@cart-service -> []
+2025-07-05T14:54:55.685+08:00  INFO 34692 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@cart-service -> []
+2025-07-05T14:54:55.698+08:00  WARN 34692 --- [boundedElastic-3] c.a.n.client.utils.ConcurrentDiskUtil    : lock DEFAULT_GROUP%40%40cart-service conflict;retry time: 1
+2025-07-05T14:54:55.703+08:00  INFO 34692 --- [main] a.c.n.d.NacosDiscoveryHeartBeatPublisher : Start nacos heartBeat task scheduler.
+2025-07-05T14:54:55.715+08:00  INFO 34692 --- [main] c.jiaruchun.gateawy.GateawyApplication   : Started GateawyApplication in 6.564 seconds (process running for 7.386)
+2025-07-05T14:54:55.720+08:00  INFO 34692 --- [main] c.a.nacos.client.config.impl.CacheData   : config listener notify warn timeout millis use default 60000 millis 
+2025-07-05T14:54:55.720+08:00  INFO 34692 --- [main] c.a.nacos.client.config.impl.CacheData   : nacos.cache.data.init.snapshot = true 
+2025-07-05T14:54:55.720+08:00  INFO 34692 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy+DEFAULT_GROUP
+2025-07-05T14:54:55.721+08:00  INFO 34692 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy, group=DEFAULT_GROUP, cnt=1
+2025-07-05T14:54:55.721+08:00  INFO 34692 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy, group=DEFAULT_GROUP
+2025-07-05T14:54:55.721+08:00  INFO 34692 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy.yaml+DEFAULT_GROUP
+2025-07-05T14:54:55.721+08:00  INFO 34692 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy.yaml, group=DEFAULT_GROUP, cnt=1
+2025-07-05T14:54:55.721+08:00  INFO 34692 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy.yaml, group=DEFAULT_GROUP
+2025-07-05T14:54:55.722+08:00  INFO 34692 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy-local.yaml+DEFAULT_GROUP
+2025-07-05T14:54:55.722+08:00  INFO 34692 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy-local.yaml, group=DEFAULT_GROUP, cnt=1
+2025-07-05T14:54:55.722+08:00  INFO 34692 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy-local.yaml, group=DEFAULT_GROUP
+2025-07-05T14:54:56.205+08:00  INFO 34692 --- [nacos-grpc-client-executor-192.168.100.128-18] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Receive server push request, request = NotifySubscriberRequest, requestId = 75
+2025-07-05T14:54:56.205+08:00  INFO 34692 --- [nacos-grpc-client-executor-192.168.100.128-18] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Ack server push request, request = NotifySubscriberRequest, requestId = 75
+2025-07-05T14:54:56.209+08:00  INFO 34692 --- [nacos-grpc-client-executor-192.168.100.128-19] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Receive server push request, request = NotifySubscriberRequest, requestId = 76
+2025-07-05T14:54:56.211+08:00  INFO 34692 --- [nacos-grpc-client-executor-192.168.100.128-19] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@hm-gateawy -> [{"ip":"192.168.100.1","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@hm-gateawy","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:54:56.211+08:00  INFO 34692 --- [nacos-grpc-client-executor-192.168.100.128-19] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@hm-gateawy -> [{"ip":"192.168.100.1","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@hm-gateawy","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:54:56.212+08:00  INFO 34692 --- [nacos-grpc-client-executor-192.168.100.128-19] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Ack server push request, request = NotifySubscriberRequest, requestId = 76
+2025-07-05T14:55:49.297+08:00  INFO 34692 --- [nacos-grpc-client-executor-192.168.100.128-30] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Receive server push request, request = NotifySubscriberRequest, requestId = 77
+2025-07-05T14:55:49.297+08:00  INFO 34692 --- [nacos-grpc-client-executor-192.168.100.128-30] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:55:49.298+08:00  INFO 34692 --- [nacos-grpc-client-executor-192.168.100.128-30] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:55:49.299+08:00  INFO 34692 --- [nacos-grpc-client-executor-192.168.100.128-30] com.alibaba.nacos.common.remote.client   : [4226363c-4d6f-444d-a275-3ca23ad5ff63] Ack server push request, request = NotifySubscriberRequest, requestId = 77
+2025-07-05T14:57:16.645+08:00  WARN 34692 --- [Thread-2] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+2025-07-05T14:57:16.645+08:00  WARN 34692 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+2025-07-05T14:57:16.646+08:00  WARN 34692 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+2025-07-05T14:57:16.647+08:00  WARN 34692 --- [Thread-2] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+2025-07-05T14:57:16.685+08:00  INFO 34692 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2025-07-05T14:57:16.685+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [DEREGISTER-SERVICE] public deregistering service hm-gateawy with instance: Instance{instanceId='null', ip='192.168.100.1', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2025-07-05T14:57:16.689+08:00  INFO 34692 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+2025-07-05T14:57:16.690+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2025-07-05T14:57:16.690+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2025-07-05T14:57:16.690+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2025-07-05T14:57:16.690+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2025-07-05T14:57:16.690+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2025-07-05T14:57:16.690+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2025-07-05T14:57:16.690+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2025-07-05T14:57:16.690+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2025-07-05T14:57:16.691+08:00  WARN 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-07-05T14:57:16.691+08:00  WARN 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+2025-07-05T14:57:16.691+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2025-07-05T14:57:16.691+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2025-07-05T14:57:16.691+08:00  WARN 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Start destroying NacosRestTemplate
+2025-07-05T14:57:16.691+08:00  WARN 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : [NamingHttpClientManager] Destruction of the end
+2025-07-05T14:57:16.691+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2025-07-05T14:57:16.691+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : Shutdown naming grpc client proxy for  uuid->4226363c-4d6f-444d-a275-3ca23ad5ff63
+2025-07-05T14:57:16.691+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@844f746[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 47]
+2025-07-05T14:57:16.691+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+2025-07-05T14:57:16.691+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@b42c796[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2025-07-05T14:57:16.692+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1751698495511_192.168.100.1_49905
+2025-07-05T14:57:16.693+08:00  INFO 34692 --- [nacos-grpc-client-executor-192.168.100.128-49] c.a.n.c.remote.client.grpc.GrpcClient    : [1751698495511_192.168.100.1_49905]Ignore complete event,isRunning:false,isAbandon=false
+2025-07-05T14:57:16.695+08:00  INFO 34692 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@40284e7c[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 50]
+2025-07-05T14:57:16.695+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : shutdown and remove naming rpc client  for uuid ->4226363c-4d6f-444d-a275-3ca23ad5ff63
+2025-07-05T14:57:16.696+08:00  INFO 34692 --- [SpringApplicationShutdownHook] c.a.n.c.a.r.identify.CredentialWatcher   : [null] CredentialWatcher is stopped
+2025-07-05T14:57:16.696+08:00  INFO 34692 --- [SpringApplicationShutdownHook] c.a.n.c.a.r.identify.CredentialService   : [null] CredentialService is freed
+2025-07-05T14:57:16.696+08:00  INFO 34692 --- [SpringApplicationShutdownHook] com.alibaba.nacos.client.naming          : com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2025-07-05T14:57:21.350+08:00  INFO 12300 --- [main] c.jiaruchun.gateawy.GateawyApplication   : The following 1 profile is active: "local"
+2025-07-05T14:57:21.973+08:00  INFO 12300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-07-05T14:57:21.977+08:00  INFO 12300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-07-05T14:57:21.996+08:00  INFO 12300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-07-05T14:57:22.169+08:00  INFO 12300 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=4bf8d823-e9b5-304b-8cb8-ec90db0f83f7
+2025-07-05T14:57:22.230+08:00  INFO 12300 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05T14:57:22.231+08:00  INFO 12300 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05T14:57:22.232+08:00  INFO 12300 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-07-05T14:57:22.395+08:00  INFO 12300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-07-05T14:57:22.404+08:00  INFO 12300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-05T14:57:22.404+08:00  INFO 12300 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2025-07-05T14:57:23.657+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-07-05T14:57:23.657+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-07-05T14:57:23.657+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-07-05T14:57:23.657+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-07-05T14:57:23.657+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-07-05T14:57:23.657+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-07-05T14:57:23.657+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-07-05T14:57:23.657+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-07-05T14:57:23.657+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-07-05T14:57:23.657+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-07-05T14:57:23.658+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-07-05T14:57:23.658+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-07-05T14:57:23.658+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-07-05T14:57:23.658+08:00  INFO 12300 --- [main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-07-05T14:57:24.041+08:00  INFO 12300 --- [main] ctiveUserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cc73b289-ab62-4682-93db-7d5096067f93
+
+2025-07-05T14:57:24.470+08:00  INFO 12300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-07-05T14:57:24.616+08:00  INFO 12300 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from ans.namespace attribute : null
+2025-07-05T14:57:24.617+08:00  INFO 12300 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from ALIBABA_ALIWARE_NAMESPACE attribute :null
+2025-07-05T14:57:24.617+08:00  INFO 12300 --- [main] com.alibaba.nacos.client.naming          : initializer namespace from namespace attribute :null
+2025-07-05T14:57:24.622+08:00  INFO 12300 --- [main] com.alibaba.nacos.client.naming          : FailoverDataSource type is class com.alibaba.nacos.client.naming.backups.datasource.DiskFailoverDataSource
+2025-07-05T14:57:24.626+08:00  INFO 12300 --- [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2025-07-05T14:57:24.626+08:00  INFO 12300 --- [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2025-07-05T14:57:24.630+08:00  INFO 12300 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 02779e21-1d46-4fee-9723-78e7c51139ea
+2025-07-05T14:57:24.632+08:00  INFO 12300 --- [main] com.alibaba.nacos.client.naming          : Create naming rpc client for uuid->02779e21-1d46-4fee-9723-78e7c51139ea
+2025-07-05T14:57:24.632+08:00  INFO 12300 --- [main] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2025-07-05T14:57:24.632+08:00  INFO 12300 --- [main] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2025-07-05T14:57:24.632+08:00  INFO 12300 --- [main] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2025-07-05T14:57:24.633+08:00  INFO 12300 --- [main] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Try to connect to server on start up, server: {serverIp = '192.168.100.128', server main port = 8848}
+2025-07-05T14:57:24.633+08:00  INFO 12300 --- [main] c.a.n.c.remote.client.grpc.GrpcClient    : grpc client connection server:192.168.100.128 ip,serverPort:9848,grpcTslConfig:{"sslProvider":"","enableTls":false,"mutualAuthEnable":false,"trustAll":false}
+2025-07-05T14:57:24.743+08:00  INFO 12300 --- [main] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Success to connect to server [192.168.100.128:8848] on start up, connectionId = 1751698644668_192.168.100.1_50149
+2025-07-05T14:57:24.743+08:00  INFO 12300 --- [com.alibaba.nacos.client.remote.worker.0] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Notify connected event to listeners.
+2025-07-05T14:57:24.743+08:00  INFO 12300 --- [main] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2025-07-05T14:57:24.743+08:00  INFO 12300 --- [com.alibaba.nacos.client.remote.worker.0] com.alibaba.nacos.client.naming          : Grpc connection connect
+2025-07-05T14:57:24.743+08:00  INFO 12300 --- [main] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$531/0x0000025d9d4c2588
+2025-07-05T14:57:24.745+08:00  INFO 12300 --- [main] com.alibaba.nacos.client.naming          : [REGISTER-SERVICE] public registering service hm-gateawy with instance Instance{instanceId='null', ip='192.168.100.1', port=8080, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={IPv6=null, preserved.register.source=SPRING_CLOUD}}
+2025-07-05T14:57:24.757+08:00  INFO 12300 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP hm-gateawy 192.168.100.1:8080 register finished
+2025-07-05T14:57:24.798+08:00  INFO 12300 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:cart-service, group:DEFAULT_GROUP, clusters: 
+2025-07-05T14:57:24.798+08:00  INFO 12300 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:cart-service, group:DEFAULT_GROUP, clusters: 
+2025-07-05T14:57:24.798+08:00  INFO 12300 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:hm-gateawy, group:DEFAULT_GROUP, clusters: 
+2025-07-05T14:57:24.799+08:00  INFO 12300 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : [SUBSCRIBE-SERVICE] service:hm-gateawy, group:DEFAULT_GROUP, clusters: 
+2025-07-05T14:57:24.799+08:00  INFO 12300 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:cart-service, group:DEFAULT_GROUP, cluster: 
+2025-07-05T14:57:24.799+08:00  INFO 12300 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:cart-service, group:DEFAULT_GROUP, cluster: 
+2025-07-05T14:57:24.799+08:00  INFO 12300 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:hm-gateawy, group:DEFAULT_GROUP, cluster: 
+2025-07-05T14:57:24.799+08:00  INFO 12300 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : [GRPC-SUBSCRIBE] service:hm-gateawy, group:DEFAULT_GROUP, cluster: 
+2025-07-05T14:57:24.817+08:00  INFO 12300 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : init new ips(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+2025-07-05T14:57:24.817+08:00  INFO 12300 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : init new ips(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+2025-07-05T14:57:24.818+08:00  INFO 12300 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : init new ips(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:57:24.818+08:00  INFO 12300 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : init new ips(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:57:24.828+08:00  INFO 12300 --- [boundedElastic-5] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+2025-07-05T14:57:24.828+08:00  INFO 12300 --- [boundedElastic-6] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@hm-gateawy -> []
+2025-07-05T14:57:24.828+08:00  INFO 12300 --- [boundedElastic-4] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:57:24.828+08:00  INFO 12300 --- [boundedElastic-3] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:57:24.842+08:00  WARN 12300 --- [boundedElastic-4] c.a.n.client.utils.ConcurrentDiskUtil    : lock DEFAULT_GROUP%40%40cart-service conflict;retry time: 1
+2025-07-05T14:57:24.842+08:00  WARN 12300 --- [boundedElastic-5] c.a.n.client.utils.ConcurrentDiskUtil    : lock DEFAULT_GROUP%40%40hm-gateawy conflict;retry time: 1
+2025-07-05T14:57:24.869+08:00  INFO 12300 --- [main] a.c.n.d.NacosDiscoveryHeartBeatPublisher : Start nacos heartBeat task scheduler.
+2025-07-05T14:57:24.883+08:00  INFO 12300 --- [main] c.jiaruchun.gateawy.GateawyApplication   : Started GateawyApplication in 5.898 seconds (process running for 6.735)
+2025-07-05T14:57:24.888+08:00  INFO 12300 --- [main] c.a.nacos.client.config.impl.CacheData   : config listener notify warn timeout millis use default 60000 millis 
+2025-07-05T14:57:24.888+08:00  INFO 12300 --- [main] c.a.nacos.client.config.impl.CacheData   : nacos.cache.data.init.snapshot = true 
+2025-07-05T14:57:24.888+08:00  INFO 12300 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy+DEFAULT_GROUP
+2025-07-05T14:57:24.889+08:00  INFO 12300 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy, group=DEFAULT_GROUP, cnt=1
+2025-07-05T14:57:24.889+08:00  INFO 12300 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy, group=DEFAULT_GROUP
+2025-07-05T14:57:24.889+08:00  INFO 12300 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy.yaml+DEFAULT_GROUP
+2025-07-05T14:57:24.889+08:00  INFO 12300 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy.yaml, group=DEFAULT_GROUP, cnt=1
+2025-07-05T14:57:24.889+08:00  INFO 12300 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy.yaml, group=DEFAULT_GROUP
+2025-07-05T14:57:24.890+08:00  INFO 12300 --- [main] c.a.n.client.config.impl.ClientWorker    : [fixed-192.168.100.128_8848] [subscribe] hm-gateawy-local.yaml+DEFAULT_GROUP
+2025-07-05T14:57:24.890+08:00  INFO 12300 --- [main] c.a.nacos.client.config.impl.CacheData   : [fixed-192.168.100.128_8848] [add-listener] ok, tenant=, dataId=hm-gateawy-local.yaml, group=DEFAULT_GROUP, cnt=1
+2025-07-05T14:57:24.890+08:00  INFO 12300 --- [main] c.a.c.n.refresh.NacosContextRefresher    : [Nacos Config] Listening config: dataId=hm-gateawy-local.yaml, group=DEFAULT_GROUP
+2025-07-05T14:57:25.272+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-21] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Receive server push request, request = NotifySubscriberRequest, requestId = 78
+2025-07-05T14:57:25.272+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-21] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@hm-gateawy -> [{"ip":"192.168.100.1","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@hm-gateawy","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:57:25.273+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-21] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@hm-gateawy -> [{"ip":"192.168.100.1","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@hm-gateawy","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:57:25.274+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-21] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Ack server push request, request = NotifySubscriberRequest, requestId = 78
+2025-07-05T14:57:25.359+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-22] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Receive server push request, request = NotifySubscriberRequest, requestId = 79
+2025-07-05T14:57:25.360+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-22] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Ack server push request, request = NotifySubscriberRequest, requestId = 79
+2025-07-05T14:57:42.475+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-26] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Receive server push request, request = NotifySubscriberRequest, requestId = 80
+2025-07-05T14:57:42.475+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-26] com.alibaba.nacos.client.naming          : removed ips(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:57:42.476+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-26] com.alibaba.nacos.client.naming          : current ips:(0) service: DEFAULT_GROUP@@cart-service -> []
+2025-07-05T14:57:42.477+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-26] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Ack server push request, request = NotifySubscriberRequest, requestId = 80
+2025-07-05T14:57:51.578+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-28] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Receive server push request, request = NotifySubscriberRequest, requestId = 81
+2025-07-05T14:57:51.578+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-28] com.alibaba.nacos.client.naming          : new ips(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:57:51.579+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-28] com.alibaba.nacos.client.naming          : current ips:(1) service: DEFAULT_GROUP@@cart-service -> [{"ip":"192.168.100.1","port":8082,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@cart-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2025-07-05T14:57:51.580+08:00  INFO 12300 --- [nacos-grpc-client-executor-192.168.100.128-28] com.alibaba.nacos.common.remote.client   : [02779e21-1d46-4fee-9723-78e7c51139ea] Ack server push request, request = NotifySubscriberRequest, requestId = 81

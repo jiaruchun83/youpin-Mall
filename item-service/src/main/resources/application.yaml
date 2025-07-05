@@ -1,0 +1,11 @@
+server:
+  port: 8081
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp功能
+hm:
+  db:
+    database: item-service
+  swager:
+    title: 商城商品接口文档
+    ds: 商城商品接口文档

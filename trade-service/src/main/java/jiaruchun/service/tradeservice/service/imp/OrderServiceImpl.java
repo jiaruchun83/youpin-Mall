@@ -1,8 +1,14 @@
 package jiaruchun.service.tradeservice.service.imp;
 
+import cn.hutool.core.util.IdUtil;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hmall.common.exception.BadRequestException;
-import com.hmall.common.utils.UserContext;
+import com.hmall.common.utils.ThreadLocalUtil;
+import io.seata.spring.annotation.GlobalTransactional;
+import jiaruchun.api.openfeignclient.cart.CartOpenFeignApi;
+import jiaruchun.api.openfeignclient.item.ItemOpenFeignApi;
+import jiaruchun.api.pojo.dto.ItemDTO;
+import jiaruchun.api.pojo.dto.OrderDetailDTO;
 import jiaruchun.service.tradeservice.mapper.OrderMapper;
 import jiaruchun.service.tradeservice.pojo.dto.OrderFormDTO;
 import jiaruchun.service.tradeservice.pojo.entity.Order;
@@ -10,18 +16,13 @@ import jiaruchun.service.tradeservice.pojo.entity.OrderDetail;
 import jiaruchun.service.tradeservice.service.IOrderDetailService;
 import jiaruchun.service.tradeservice.service.IOrderService;
 import lombok.RequiredArgsConstructor;
-import jiaruchun.api.openfeignclient.cart.CartOpenFeignApi;
-import jiaruchun.api.openfeignclient.item.ItemOpenFeignApi;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import jiaruchun.api.pojo.dto.ItemDTO;
-import jiaruchun.api.pojo.dto.OrderDetailDTO;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -40,11 +41,35 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
     private final ItemOpenFeignApi itemOpenFeignApi;
     private final CartOpenFeignApi cartOpenFeignApi;
 
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
+
     @Override
-    @Transactional
+    @GlobalTransactional
     public Long createOrder(OrderFormDTO orderFormDTO) {
+
+        long orderId = IdUtil.getSnowflake().nextId();
+
+        HashMap<String, Object> data = new HashMap<>();
+        data.put("userId",ThreadLocalUtil.get());
+        data.put("orderId",orderId);
+        data.put("orderFormDTO",orderFormDTO);
+        rabbitTemplate.convertAndSend("mall.order.fanoutExchange","",data);
+        return orderId;
+    }
+
+    @RabbitListener(queues = "mall.order.fanoutExchange.queue1")
+    public void createOrderByMQ(Object map){
+        if (!(map instanceof Map<?, ?>)) {
+            throw new BadRequestException("接收到的消息不是 Map 类型");
+        }
+        HashMap<String, Object> date = (HashMap<String, Object>) map;
+        Long userId = (Long) date.get("userId");
+        Long orderId = (Long) date.get("orderId");
+        OrderFormDTO orderFormDTO = (OrderFormDTO) date.get("orderFormDTO");
         // 1.订单数据
         Order order = new Order();
+        order.setId(orderId);
         // 1.1.查询商品
         List<OrderDetailDTO> detailDTOS = orderFormDTO.getDetails();
         // 1.2.获取商品id和数量的Map
@@ -64,7 +89,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
         order.setTotalFee(total);
         // 1.5.其它属性
         order.setPaymentType(orderFormDTO.getPaymentType());
-        order.setUserId(UserContext.getUser());
+        order.setUserId(userId);
         order.setStatus(1);
         // 1.6.将Order写入数据库order表中
         save(order);
@@ -82,7 +107,6 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
         } catch (Exception e) {
             throw new RuntimeException("库存不足！");
         }
-        return order.getId();
     }
 
     @Override

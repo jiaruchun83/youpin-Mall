@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.hmall.common.exception.BizIllegalException;
 import com.hmall.common.utils.BeanUtils;
 import com.hmall.common.utils.CollUtils;
+import com.hmall.common.utils.ThreadLocalUtil;
 import com.hmall.common.utils.UserContext;
 import jiaruchun.api.openfeignclient.item.ItemOpenFeignApi;
 import jiaruchun.api.pojo.dto.ItemDTO;
@@ -15,6 +16,7 @@ import jiaruchun.service.cartservice.pojo.entity.Cart;
 import jiaruchun.service.cartservice.pojo.vo.CartVO;
 import jiaruchun.service.cartservice.service.ICartService;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
@@ -32,6 +34,7 @@ import java.util.stream.Collectors;
  * @author 虎哥
  * @since 2023-05-05
  */
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements ICartService {
@@ -41,7 +44,7 @@ public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements IC
     @Override
     public void addItem2Cart(CartFormDTO cartFormDTO) {
         // 1.获取登录用户
-        Long userId = UserContext.getUser();
+        Long userId = ThreadLocalUtil.get();
 
         // 2.判断是否已经存在
         if(checkItemExists(cartFormDTO.getItemId(), userId)){
@@ -64,8 +67,9 @@ public class CartServiceImpl extends ServiceImpl<CartMapper, Cart> implements IC
     @Override
     public List<CartVO> queryMyCarts() {
         // 1.查询我的购物车列表
-//        List<Cart> carts = lambdaQuery().eq(Cart::getUserId, UserContext.getUser()).list();
-        List<Cart> carts = lambdaQuery().eq(Cart::getUserId, 1).list();
+        Long userId = ThreadLocalUtil.get();
+        log.info("userId:{}",userId);
+        List<Cart> carts = lambdaQuery().eq(Cart::getUserId, userId).list();
         if (CollUtils.isEmpty(carts)) {
             return CollUtils.emptyList();
         }

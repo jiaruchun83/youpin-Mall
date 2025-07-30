@@ -58,8 +58,11 @@
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-core</artifactId>
         </dependency>
-
-
+        <dependency>
+            <groupId>com.jiaruchun</groupId>
+            <artifactId>hm-api</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 
 

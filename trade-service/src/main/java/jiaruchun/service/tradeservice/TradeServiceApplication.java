@@ -8,7 +8,6 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @MapperScan("jiaruchun.service.tradeservice.mapper")
 @EnableFeignClients(basePackages = "jiaruchun.api",defaultConfiguration = DefaultFeignConfig.class)
-//@ComponentScan(basePackages = {"jiaruchun.api", "jiaruchun.service.tradeservice"})
 @SpringBootApplication
 public class TradeServiceApplication {
 

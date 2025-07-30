@@ -1,11 +1,13 @@
 server:
-  port: 8083
+  port: 8084
 feign:
   okhttp:
     enabled: true # 开启OKHttp功能
+  sentinel:
+    enabled: true # 开启Feign对Sentinel的整合
 hm:
   db:
-    database: trade-service
+    database: hm-trade
   swager:
     title: 商城交易接口文档
     ds: 商城交易接口文档

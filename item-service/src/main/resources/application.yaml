@@ -3,9 +3,11 @@ server:
 feign:
   okhttp:
     enabled: true # 开启OKHttp功能
+  sentinel:
+    enabled: true # 开启Feign对Sentinel的整合
 hm:
   db:
-    database: item-service
+    database: hm-item
   swager:
     title: 商城商品接口文档
     ds: 商城商品接口文档

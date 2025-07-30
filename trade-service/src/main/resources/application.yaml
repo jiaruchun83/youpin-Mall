@@ -3,6 +3,8 @@ server:
 feign:
   okhttp:
     enabled: true # 开启OKHttp功能
+  sentinel:
+    enabled: true # 开启Feign对Sentinel的整合
 hm:
   db:
     database: hm-trade

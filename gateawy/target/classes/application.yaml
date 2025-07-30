@@ -40,9 +40,8 @@ auth:
     - /search
     - /users/login
     - /hi
-    - /carts
 jwt:
   map-key-name: userId
   token-name: authorization
-  secret-key: shijiezhmedahaishiyujianni
+  secret-key: shijiezhmedahaishiyujiannijingguoduoshaocifengheyu
   token-ttl: 172800

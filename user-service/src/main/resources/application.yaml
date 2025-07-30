@@ -9,3 +9,8 @@ hm:
   swager:
     title: 商城用户接口文档
     ds: 商城用户接口文档
+jwt:
+  map-key-name: userId
+  token-name: authorization
+  secret-key: shijiezhmedahaishiyujiannijingguoduoshaocifengheyu
+  token-ttl: 172800

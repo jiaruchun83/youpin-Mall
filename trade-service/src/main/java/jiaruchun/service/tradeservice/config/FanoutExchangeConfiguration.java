@@ -16,20 +16,20 @@ import org.springframework.context.annotation.Configuration;
 public class FanoutExchangeConfiguration {
 
     @Bean
-    public FanoutExchange KillfanoutExchange(){
-        return new FanoutExchange("mall.order.fanoutExchange");
+    public FanoutExchange KillfanoutExchange1(){
+        return new FanoutExchange("mall.createOrder.fanoutExchange");
     }
 
     @Bean
     public Queue queue1(){
-        return new Queue("mall.order.fanoutExchange.queue1");
+        return new Queue("mall.CreateOrder.fanoutExchange.queue1");
     }
     /*
     * 绑定
     * */
     @Bean
     public Binding binding(){
-        return BindingBuilder.bind(queue1()).to(KillfanoutExchange());
+        return BindingBuilder.bind(queue1()).to(KillfanoutExchange1());
     }
 
 }

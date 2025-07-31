@@ -16,6 +16,9 @@ import jiaruchun.service.tradeservice.pojo.entity.OrderDetail;
 import jiaruchun.service.tradeservice.service.IOrderDetailService;
 import jiaruchun.service.tradeservice.service.IOrderService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.amqp.rabbit.annotation.Exchange;
+import org.springframework.amqp.rabbit.annotation.Queue;
+import org.springframework.amqp.rabbit.annotation.QueueBinding;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,6 +46,8 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
 
     @Autowired
     private RabbitTemplate rabbitTemplate;
+    @Autowired
+    private OrderMapper orderMapper;
 
     @Override
     @GlobalTransactional
@@ -54,11 +59,26 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order> implements
         data.put("userId",ThreadLocalUtil.get());
         data.put("orderId",orderId);
         data.put("orderFormDTO",orderFormDTO);
-        rabbitTemplate.convertAndSend("mall.order.fanoutExchange","",data);
+        //异步下单
+        rabbitTemplate.convertAndSend("mall.createOrder.fanoutExchange","",data);
+        //超时取消
+        rabbitTemplate.convertAndSend("mall.timeOutOrder.exchange", orderId, message -> {
+            message.getMessageProperties().setDelay(1000 * 60 * 15);//15分钟超时时间
+            return message;
+        });
         return orderId;
     }
 
-    @RabbitListener(queues = "mall.order.fanoutExchange.queue1")
+    @RabbitListener(bindings = @QueueBinding(
+            value = @Queue(name = "mall.timeOutOrder.exchange.queue1"),
+            exchange = @Exchange(name = "mall.timeOutOrder.exchange",delayed = "true")
+    ))
+    private void TimeOutCancelOrder(Object orderId){
+        Long orderId1 = (Long) orderId;
+        orderMapper.updateStatus(orderId1);
+    }
+
+    @RabbitListener(queues = "mall.CreateOrder.fanoutExchange.queue1")
     public void createOrderByMQ(Object map){
         if (!(map instanceof Map<?, ?>)) {
             throw new BadRequestException("接收到的消息不是 Map 类型");

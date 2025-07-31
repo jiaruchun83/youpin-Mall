@@ -2,6 +2,7 @@ package jiaruchun.service.tradeservice.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import jiaruchun.service.tradeservice.pojo.entity.Order;
+import org.apache.ibatis.annotations.Update;
 
 
 /**
@@ -14,4 +15,6 @@ import jiaruchun.service.tradeservice.pojo.entity.Order;
  */
 public interface OrderMapper extends BaseMapper<Order> {
 
+    @Update("update order set status = 5,update_time = NOW(),close_time = NOW() where id = #{orderId1} and status = 1")
+    void updateStatus(Long orderId1);
 }
